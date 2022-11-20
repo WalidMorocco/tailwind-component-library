@@ -29,7 +29,11 @@ Add to css,
 
 ### `npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch`
 
+Run the CLI tool to scan template files for classes and build CSS.
 
+### `npm install react-router-dom`
+
+Install React Router.
 
 ### `npm test`
 
