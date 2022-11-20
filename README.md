@@ -14,6 +14,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm install -D tailwindcss` `npx tailwindcss init`
+
+Install tailwind library.
+Added to module.exports in tailwind.config.js file,
+```content: ["./src/**/*.{html,js}"]```
+
+Add to css,
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+### `npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch`
+
+
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
